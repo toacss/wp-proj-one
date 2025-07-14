@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play Who Wants To Be A Millionaire?</title>
+    <link rel="stylesheet" href="indexstyle.css">
+    <style>
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .bounce {
+            animation: bounce 2.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2 class="bounce">Login or Register to play Who Wants To Be A Millionaire!</h2>
+        <form method="post" action="login.php">
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <button type="submit">Enter</button>
+        </form>
+    </div>
+</body>
+</html>

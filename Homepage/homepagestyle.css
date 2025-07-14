@@ -1,0 +1,76 @@
+body {
+    background: url('../Backgrounds/login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Tahoma";
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    display: flex;
+  }
+
+
+
+.container {
+    background-color: rgb(88, 41, 117);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    animation: fadeIn 1.2s ease-in;
+    max-width: 600px;
+}
+
+.instructions {
+    background-color: rgb(88, 41, 117);
+    padding: 40px;
+    box-shadow: 0 10px 25px black;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #346236;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.btn-info {
+    background-color: #224868;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #27619b;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

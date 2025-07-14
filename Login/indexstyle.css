@@ -1,0 +1,19 @@
+body {
+    background: url('../Backgrounds/login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Tahoma";
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    display: flex;
+  }
+
+.login {
+    background-color: rgb(88, 41, 117);
+    padding: 40px;
+    box-shadow: 0 10px 25px black;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
